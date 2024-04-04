@@ -1,0 +1,166 @@
+.single__page{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    width: 1030px;
+    margin: 100px auto;
+    padding: 40px;
+    gap: 60px;
+
+}
+
+.primary__image{
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 546px;
+    height: 546px;
+    padding: 25px 27px 0 27px;
+    img{
+        width: 496px;
+        height: 356px;
+        object-fit: contain;
+    }
+}
+.ShareIcons{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 5px;
+}
+.secondary__images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    width: 590px;
+    margin-top: 30px;
+    img{
+        width: 93px;
+        height: 65px;
+        border-radius: 4px;
+        object-fit: contain;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    }
+
+}
+
+.product__info{
+    h2{
+        color: rgb(30, 30, 30);
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .product__price{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+        h3{
+            color: rgb(30, 30, 30);
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 66px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+    .product__color{
+        display: flex;
+        gap: 15px;
+        button{
+            border-radius: 4px;
+            width: 46px;
+            height: 46px;
+            &:active{
+                border: 2px solid #ddd;
+            }
+        }
+        .gray{
+            background-color: rgb(190, 187, 194);
+        }
+        .milk{
+            background-color: rgb(249, 222, 215);
+        }
+        .milky{
+            background-color: rgb(252, 233, 219);
+        }
+        .white{
+            background-color: rgb(232, 232, 234);
+        }
+        .black{
+            background-color: rgb(46, 45, 51);
+        }
+    }
+    .description{
+        color: rgb(13, 99, 243);
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .credit{
+        display: flex;
+        h3{
+            color: rgb(30, 30, 30);
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+            padding: 14px 20px;
+            transition: 0.3s ease-in;
+            border: 2px solid #fff;
+            &:hover{
+                color: rgb(13, 99, 243);
+                border-radius: 4px;
+                border: 2px solid rgb(13, 99, 243);
+                transition: 0.3s ease-in;
+            }
+        } 
+    }
+}
+  .cardbtn {
+      padding: 15px;
+      color: rgb(13, 99, 243);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0%;
+      border: 2px solid rgb(13, 99, 243);
+      text-align: center;
+      border-radius: 8px;
+      transition: 0.3s ease-in;
+      &:hover{
+        background-color: rgb(13, 99, 243);
+        color: white;
+        border: 2px solid white;
+
+      }
+  }
+
+  .btns{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    .buy{
+        border-radius: 10px;
+        background: rgb(13, 99, 243);
+        padding:15px 79px;
+        color: white;
+    }
+    .order{
+        color: rgb(13, 99, 243);
+        padding: 14px 30px;
+        border: 1px solid rgb(13, 99, 243);
+        border-radius: 10px;
+        background: rgba(13, 99, 243, 0.2);
+    }
+  }
