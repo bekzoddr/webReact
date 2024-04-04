@@ -73,3 +73,14 @@
         background: yellow;
     }
 }
+
+@media (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .product__cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

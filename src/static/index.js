@@ -53,3 +53,4 @@ export const cardImages = [
 ];
 
 export const API_URl = "https://jsonplaceholder.typicode.com/users/";
+export const LOGIN__URL = "https://fakestoreapi.com/";
