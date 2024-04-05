@@ -17,9 +17,10 @@ function Login() {
     if (!username.trim() || !password.trim) {
       return toast.warn("enter info");
     }
-    let user = (username, password);
+    let user = { username, password };
+    console.log(user);
     axios
-      .post(`${LOGIN__URL}auth/login`, user)
+      .post(`${LOGIN__URL}/auth/login`, user)
       .then((res) => {
         console.log("response-----", res);
         toast.success("login successful");
